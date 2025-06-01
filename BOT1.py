@@ -1,9 +1,9 @@
 import telebot
 import google.generativeai as genai
-bot = telebot.TeleBot("7437510344:AAFDa78uC_oVyxf7Hm38jxSXlILab4KJzVU", parse_mode=None) # You can set parse_mode by default. HTML or MARKDOWN
+bot = telebot.TeleBot("TELEGRAM_BOT_TOKEN", parse_mode=None) # You can set parse_mode by default. HTML or MARKDOWN
 
 
-genai.configure(api_key="AIzaSyAVWZyR1rCUn8Mu_5SOMqcFS5eW7yJVByA")
+genai.configure(api_key="GEMINI_API_KEY")
 
 generation_config = {
   "temperature": 1,
